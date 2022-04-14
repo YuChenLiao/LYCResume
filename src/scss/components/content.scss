@@ -198,7 +198,7 @@ dd {
     font-size: 15px;
     margin-left: 27px;
     display: flex;
-    align-items: center;
+    align-items: top;
     @include media("print") {
       font-size: 14px;
     }
