@@ -27,7 +27,7 @@ header:
 education:
   time: 2019-2023
   name: 南昌大学
-  major: 计算机类（本科）
+  major: 计算机类（本科在读）
 
 language:
   cert:
@@ -39,15 +39,26 @@ language:
 
 experience:
   - title:
-      place: 南大家园研发组前端团队
-      time: 2020.02 - 至今
+      place: 南大家园 US 项目组
+      time: 2020/02 - 2021
     content:
-      position: 前端组组员
+      position: 社团内部管理系统维护与重构前端负责人
       tasks:
-        - 2020~2021 社团内部管理系统(US)的维护与重构
-        - 2020/02 参加社团内部 hackweek
-        - 2020/08 参与招新活动网页编写
-        - 2021/03 再次参与社团内部 hackweek
+        - 接手内部管理系统前端部分，主管修复漏洞，开发新功能和使用框架新特新逐步取代老旧代码，主要功能有无课时间统计，内部反馈，内部发帖，内部投票和人员管理
+  - title:
+      place: 南大家园 hackweek 第四组前端
+      time: 2020/03
+    content:
+      position: 第一次参加社团内 hackweek
+      tasks:
+        - 使用 vue + ElementUI 开发类似论坛的网站用于内部比赛
+  - title:
+      place: 南大家园美食玩家项目组前端
+      time: 2020/08
+    content:
+      position: 参与社团招新活动网页小游戏开发
+      tasks:
+        - 使用 vue + anime.js 开发了响应式多端适配的类似抓娃娃的网页小游戏
 
 skills:
   flags:
