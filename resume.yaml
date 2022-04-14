@@ -35,7 +35,8 @@ language:
       grade: 430
       fullmarks: 710
   skills:
-    - 较好的英文读写能力
+    - 良好的英文读写能力
+    - 能够独立阅读英文文档
 
 experience:
   - title:
@@ -44,21 +45,24 @@ experience:
     content:
       position: 社团内部管理系统维护与重构前端负责人
       tasks:
-        - 接手内部管理系统前端部分，主管修复漏洞，开发新功能和使用框架新特新逐步取代老旧代码，主要功能有无课时间统计，内部反馈，内部发帖，内部投票和人员管理
+        - 技术栈基于 react + antd + dva
+        - 负责内部管理系统前端部分，主管开发新功能，使用框架新特新逐步取代老旧代码和修复漏洞，主要功能有无课时间统计，内部反馈，内部发帖，内部投票和人员管理
   - title:
-      place: 南大家园 hackweek 第四组前端
+      place: 南大家园 hackweek 
       time: 2020/03
     content:
-      position: 第一次参加社团内 hackweek
+      position: hackweek 第四组前端负责人
       tasks:
-        - 使用 vue + ElementUI 开发类似论坛的网站用于内部比赛
+        - 技术栈基于 vue + ElementUI
+        - 开发论坛网站用于参与校内比赛，主要功能有发帖删帖，点赞回复和查看历史记录等,并取得第三名成绩
   - title:
       place: 南大家园美食玩家项目组前端
       time: 2020/08
     content:
-      position: 参与社团招新活动网页小游戏开发
+      position: 社团招新活动网页小游戏开发前端
       tasks:
-        - 使用 vue + anime.js 开发了响应式多端适配的类似抓娃娃的网页小游戏
+        - 技术栈基于 vue + ElementUI + vuex + anime.js
+        - 实现了响应式多端适配的抓娃娃网页小游戏并成功上线使用到招新结束
 
 skills:
   flags:
@@ -70,20 +74,20 @@ skills:
           - 可以不借助框架编写`响应式/移动端网页`
       - name: '`ECMAScript`'
         description:
-          - 熟练使用 ES6 语法，代码编写遵守规范
-          - 对异步编程有所了解，`掌握常见的解决方案`
+          - 熟悉 ES6 语法，代码编写遵守规范
+          - 能利用异步编程解决实际问题，`掌握常见的解决方案`
       - name: '`Vue`'
         description:
-          - 熟练使用 vue 常用 API
-          - 曾经使用 vue 参加社团内部比赛以及招新网页编写
+          - 熟练使用 vue 进行开发，熟悉常用 API
+          - 使用过 vue 开发线上项目
       - name: '`React`'
         description:
-          - 熟练应用 react 进行开发
-          - 对 reacthook 常用 API 原理有所了解
-          - 使用过 react 参与社团项目维护以及内部比赛
+          - 熟练使用 react 进行开发,熟悉 reacthook 常用 API 
+          - 使用过 react 参与社团项目维护迭代，内部比赛和在校课程大作业
       - name: 前端工程化实践
         description:
-          - 使用过 `React + TypeScript`完成校内课程作业
+          - 使用过 `React + TypeScript + dva`完成校内课程作业
+          - 具体实现的是一个客房管理系统，包括管理员的登录，用户的入住登记，退房登记和实时显示客房状态等
           - 对 `React/Vue` 框架底层原理有过了解
 
   gears:
@@ -95,3 +99,4 @@ skills:
       - name: 工具使用
         description:
           - 熟练使用 Git 
+          - 能够合理利用 Google、StackOverflow、GitHub Issues 等解决技术方面遇到的困惑和问题

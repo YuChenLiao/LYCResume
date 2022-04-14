@@ -56,9 +56,6 @@ block language
         each val in language.cert
           .language-cert-wrapper
             dt.language-cert-type= val.name
-            dd.progress
-              .progress-bar(style= 'width:'+val.grade/val.fullmarks*100+'%')
-                span.progress-label= val.grade
       ul.language-skills
         each val in language.skills
           li.icon-star= val
