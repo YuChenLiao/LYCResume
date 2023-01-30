@@ -15,7 +15,7 @@ aside:
 header:
   title:
     name: 廖宇晨
-    job: 前端（实习）
+    job: 前端
   contacts:
     phone: 15797703563
     mail: yuchenliao3@gmail.com
@@ -42,26 +42,26 @@ experience:
       place: 南大家园 US 项目组
       time: 2020/02 - 2021
     content:
-      position: 社团内部管理系统维护与重构前端负责人
+      position: 社团内部管理系统维护与前端负责人
       tasks:
         - 技术栈基于 react + antd + dva
-        - 负责内部管理系统前端部分，主管开发新功能，使用框架新特新逐步取代老旧代码和修复漏洞，主要功能有无课时间统计，内部反馈，内部发帖，内部投票和人员管理
-  - title:
-      place: 南大家园 hackweek 
-      time: 2020/03
-    content:
-      position: hackweek 第四组前端负责人
-      tasks:
-        - 技术栈基于 vue + ElementUI
-        - 开发论坛网站用于参与校内比赛，主要功能有发帖删帖，点赞回复和查看历史记录等,并取得第三名成绩
+        - 21届新生进入家园后，家园研发新增游戏组，US 原有人员管理功能无法满足要求，于是修改对组别的解构函数使游戏组能够被成功识别解构，并修改对应页面逻辑使游戏组组员能够正确的被显示
   - title:
       place: 南大家园美食玩家项目组前端
       time: 2020/08
     content:
       position: 社团招新活动网页小游戏开发前端
       tasks:
-        - 技术栈基于 vue + ElementUI + vuex + anime.js
-        - 实现了响应式多端适配的抓娃娃网页小游戏并成功上线使用到招新结束
+        - 技术栈基于 Vue + ElementUI + Vuex + Anime.js
+        - 20届入学之前，配合家园的招新工作进行网页端小游戏的开发，并按要求对大部分的移动端设备进行了适配
+  - title:
+      place: 深圳正义集团研发组(实习)
+      time: 2022/07 - 2022/09
+    content:
+      position: 主要负责公司官网的前端代码重构
+      tasks:
+        - 技术栈基于 Vue + Vuetify
+        - 原有 jsp 代码过于老旧缺少文档难以维护且无法适配移动端，故对其进行重构和移动端适配，重构后能够适配大部分的移动端设备
 
 skills:
   flags:
@@ -70,24 +70,26 @@ skills:
       - name: 'HTML/CSS'
         description:
           - 能够编写语义化的 HTML，熟悉 CSS 的使用
-          - 可以不借助框架编写`响应式/移动端网页`
-      - name: '`ECMAScript`'
+          - 可以不借助框架编写响应式/移动端网页
+      - name: 'ECMAScript'
         description:
           - 熟悉 ES6 语法，代码编写遵守规范
-          - 能利用异步编程解决实际问题，`掌握常见的解决方案`
-      - name: '`Vue`'
+          - 能利用异步编程解决实际问题，掌握常见的解决方案
+      - name: 'Vue'
         description:
-          - 熟练使用 vue 进行开发，熟悉常用 API
-          - 使用过 vue 开发线上项目
-      - name: '`React`'
+          - 熟练使用 Vue 进行开发，熟悉常用 API
+          - 使用过 Vue 开发线上项目
+      - name: 'React'
         description:
-          - 熟练使用 react 进行开发,熟悉 reacthook 常用 API 
-          - 使用过 react 参与社团项目维护迭代，内部比赛和在校课程大作业
+          - 熟练使用 React 进行开发,熟悉 React Hook 常用 API 
+          - 使用过 React 参与社团项目维护迭代和内部比赛
+      - name: nodejs
+        description: 
+          - 能够使用 nodejs 及相关框架开发后端项目
       - name: 前端工程化实践
         description:
-          - 使用过 `React + TypeScript + dva`完成校内课程作业
-          - 具体实现的是一个客房管理系统，包括管理员的登录，用户的入住登记，退房登记和实时显示客房状态等
-          - 对 `React/Vue` 框架底层原理有过了解
+          - 能够熟练使用 Webpack 进行项目配置
+          - 对 Vite 有过了解
 
   gears:
     name: 其它
